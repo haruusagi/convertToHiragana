@@ -86,3 +86,4 @@ struct PostData: Codable {
     var sentence: String
     var output_type: String
 }
+
