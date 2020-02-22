@@ -3,14 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5887C9124011E2600848019 /* fukidashi10.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9024011E2600848019 /* fukidashi10.png */; };
-		D5887C9324011E3600848019 /* fukidashi03.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9224011E3600848019 /* fukidashi03.png */; };
-		D5887C9524011E3F00848019 /* youchien_bag_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9424011E3F00848019 /* youchien_bag_girl.png */; };
-		D5887C9724011E5200848019 /* job_hoikushi_man.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9624011E5200848019 /* job_hoikushi_man.png */; };
 		D58A370F24003150005FA62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A370E24003150005FA62D /* AppDelegate.swift */; };
 		D58A371124003150005FA62D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A371024003150005FA62D /* ViewController.swift */; };
 		D58A371424003150005FA62D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58A371224003150005FA62D /* Main.storyboard */; };
@@ -38,10 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D5887C9024011E2600848019 /* fukidashi10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi10.png; sourceTree = "<group>"; };
-		D5887C9224011E3600848019 /* fukidashi03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi03.png; sourceTree = "<group>"; };
-		D5887C9424011E3F00848019 /* youchien_bag_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youchien_bag_girl.png; sourceTree = "<group>"; };
-		D5887C9624011E5200848019 /* job_hoikushi_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_hoikushi_man.png; sourceTree = "<group>"; };
 		D58A370B24003150005FA62D /* convertToHiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertToHiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58A370E24003150005FA62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58A371024003150005FA62D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,10 +81,6 @@
 				D58A372224003153005FA62D /* convertToHiraganaTests */,
 				D58A372D24003153005FA62D /* convertToHiraganaUITests */,
 				D58A370C24003150005FA62D /* Products */,
-				D5887C9024011E2600848019 /* fukidashi10.png */,
-				D5887C9224011E3600848019 /* fukidashi03.png */,
-				D5887C9424011E3F00848019 /* youchien_bag_girl.png */,
-				D5887C9624011E5200848019 /* job_hoikushi_man.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,7 +205,7 @@
 				};
 			};
 			buildConfigurationList = D58A370624003150005FA62D /* Build configuration list for PBXProject "convertToHiragana" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -243,11 +231,7 @@
 			files = (
 				D58A371924003153005FA62D /* LaunchScreen.storyboard in Resources */,
 				D58A371624003153005FA62D /* Assets.xcassets in Resources */,
-				D5887C9724011E5200848019 /* job_hoikushi_man.png in Resources */,
 				D58A371424003150005FA62D /* Main.storyboard in Resources */,
-				D5887C9324011E3600848019 /* fukidashi03.png in Resources */,
-				D5887C9524011E3F00848019 /* youchien_bag_girl.png in Resources */,
-				D5887C9124011E2600848019 /* fukidashi10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

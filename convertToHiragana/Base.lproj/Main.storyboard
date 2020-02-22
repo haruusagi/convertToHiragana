@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi03.png" translatesAutoresizingMaskIntoConstraints="NO" id="vbC-CA-YQ3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi03" translatesAutoresizingMaskIntoConstraints="NO" id="vbC-CA-YQ3">
                                 <rect key="frame" x="20" y="426" width="428" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="ここに漢字を入力してね" textAlignment="center" minimumFontSize="24" background="fukidashi10.png" translatesAutoresizingMaskIntoConstraints="NO" id="VIn-AR-Hl1">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="ここに漢字を入力してね" textAlignment="center" minimumFontSize="24" background="fukidashi10" translatesAutoresizingMaskIntoConstraints="NO" id="VIn-AR-Hl1">
                                 <rect key="frame" x="20" y="227" width="284" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -33,12 +33,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHA-P2-XzK">
                                 <rect key="frame" x="269" y="186" width="125" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="youchien_bag_girl.png"/>
+                                <state key="normal" backgroundImage="youchien_bag_girl"/>
                                 <connections>
                                     <action selector="convertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1L-3D-kK2"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="job_hoikushi_man.png" translatesAutoresizingMaskIntoConstraints="NO" id="u2j-0J-PXg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="job_hoikushi_man" translatesAutoresizingMaskIntoConstraints="NO" id="u2j-0J-PXg">
                                 <rect key="frame" x="-17" y="564" width="187" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -73,9 +73,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fukidashi03.png" width="492" height="372"/>
-        <image name="fukidashi10.png" width="800" height="317"/>
-        <image name="job_hoikushi_man.png" width="241" height="450"/>
-        <image name="youchien_bag_girl.png" width="293" height="400"/>
+        <image name="fukidashi03" width="164" height="124"/>
+        <image name="fukidashi10" width="266.66665649414062" height="105.66666412353516"/>
+        <image name="job_hoikushi_man" width="80.333335876464844" height="150"/>
+        <image name="youchien_bag_girl" width="97.666664123535156" height="133.33332824707031"/>
     </resources>
 </document>
