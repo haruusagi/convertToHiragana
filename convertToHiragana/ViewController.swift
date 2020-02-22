@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var errorText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        convertText.text = ""
         
     }
 
