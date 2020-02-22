@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5887C9124011E2600848019 /* fukidashi10.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9024011E2600848019 /* fukidashi10.png */; };
+		D5887C9324011E3600848019 /* fukidashi03.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9224011E3600848019 /* fukidashi03.png */; };
+		D5887C9524011E3F00848019 /* youchien_bag_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9424011E3F00848019 /* youchien_bag_girl.png */; };
+		D5887C9724011E5200848019 /* job_hoikushi_man.png in Resources */ = {isa = PBXBuildFile; fileRef = D5887C9624011E5200848019 /* job_hoikushi_man.png */; };
 		D58A370F24003150005FA62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A370E24003150005FA62D /* AppDelegate.swift */; };
 		D58A371124003150005FA62D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A371024003150005FA62D /* ViewController.swift */; };
 		D58A371424003150005FA62D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58A371224003150005FA62D /* Main.storyboard */; };
@@ -14,10 +18,6 @@
 		D58A371924003153005FA62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58A371724003153005FA62D /* LaunchScreen.storyboard */; };
 		D58A372424003153005FA62D /* convertToHiraganaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A372324003153005FA62D /* convertToHiraganaTests.swift */; };
 		D58A372F24003153005FA62D /* convertToHiraganaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58A372E24003153005FA62D /* convertToHiraganaUITests.swift */; };
-		D5FCED112400E9C400CF11CF /* youchien_bag_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FCED102400E9C400CF11CF /* youchien_bag_girl.png */; };
-		D5FCED132400E9D200CF11CF /* job_hoikushi_man.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FCED122400E9D200CF11CF /* job_hoikushi_man.png */; };
-		D5FCED152400EB3900CF11CF /* fukidashi10.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FCED142400EB3900CF11CF /* fukidashi10.png */; };
-		D5FCED172400EBA300CF11CF /* fukidashi03.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FCED162400EBA300CF11CF /* fukidashi03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5887C9024011E2600848019 /* fukidashi10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi10.png; sourceTree = "<group>"; };
+		D5887C9224011E3600848019 /* fukidashi03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fukidashi03.png; sourceTree = "<group>"; };
+		D5887C9424011E3F00848019 /* youchien_bag_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youchien_bag_girl.png; sourceTree = "<group>"; };
+		D5887C9624011E5200848019 /* job_hoikushi_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_hoikushi_man.png; sourceTree = "<group>"; };
 		D58A370B24003150005FA62D /* convertToHiragana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertToHiragana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58A370E24003150005FA62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D58A371024003150005FA62D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +55,6 @@
 		D58A372A24003153005FA62D /* convertToHiraganaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = convertToHiraganaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58A372E24003153005FA62D /* convertToHiraganaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertToHiraganaUITests.swift; sourceTree = "<group>"; };
 		D58A373024003153005FA62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5FCED102400E9C400CF11CF /* youchien_bag_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = youchien_bag_girl.png; path = ../../../Desktop/youchien_bag_girl.png; sourceTree = "<group>"; };
-		D5FCED122400E9D200CF11CF /* job_hoikushi_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = job_hoikushi_man.png; path = ../../../Desktop/job_hoikushi_man.png; sourceTree = "<group>"; };
-		D5FCED142400EB3900CF11CF /* fukidashi10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fukidashi10.png; path = ../../../Desktop/fukidashi10.png; sourceTree = "<group>"; };
-		D5FCED162400EBA300CF11CF /* fukidashi03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fukidashi03.png; path = ../../../Desktop/fukidashi03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 				D58A372224003153005FA62D /* convertToHiraganaTests */,
 				D58A372D24003153005FA62D /* convertToHiraganaUITests */,
 				D58A370C24003150005FA62D /* Products */,
-				D5FCED102400E9C400CF11CF /* youchien_bag_girl.png */,
-				D5FCED122400E9D200CF11CF /* job_hoikushi_man.png */,
-				D5FCED142400EB3900CF11CF /* fukidashi10.png */,
-				D5FCED162400EBA300CF11CF /* fukidashi03.png */,
+				D5887C9024011E2600848019 /* fukidashi10.png */,
+				D5887C9224011E3600848019 /* fukidashi03.png */,
+				D5887C9424011E3F00848019 /* youchien_bag_girl.png */,
+				D5887C9624011E5200848019 /* job_hoikushi_man.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,11 +243,11 @@
 			files = (
 				D58A371924003153005FA62D /* LaunchScreen.storyboard in Resources */,
 				D58A371624003153005FA62D /* Assets.xcassets in Resources */,
-				D5FCED112400E9C400CF11CF /* youchien_bag_girl.png in Resources */,
-				D5FCED152400EB3900CF11CF /* fukidashi10.png in Resources */,
+				D5887C9724011E5200848019 /* job_hoikushi_man.png in Resources */,
 				D58A371424003150005FA62D /* Main.storyboard in Resources */,
-				D5FCED172400EBA300CF11CF /* fukidashi03.png in Resources */,
-				D5FCED132400E9D200CF11CF /* job_hoikushi_man.png in Resources */,
+				D5887C9324011E3600848019 /* fukidashi03.png in Resources */,
+				D5887C9524011E3F00848019 /* youchien_bag_girl.png in Resources */,
+				D5887C9124011E2600848019 /* fukidashi10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
