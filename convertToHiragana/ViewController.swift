@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,UITextFieldDelegate{
 
     @IBOutlet weak var convertText: UITextField!
     @IBOutlet weak var convertedText: UILabel!
@@ -16,10 +16,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        convertText.text = ""
-        
     }
-
+    
+    //textfieldに触れたらconvertTextを空白にする
+    
+    
     @IBAction func convertButton(_ sender: Any) {
         let convertTextForApi = convertText.text!
 
@@ -29,18 +30,23 @@ class ViewController: UIViewController {
         } else {
             errorText.text = ""
         }
-
+        let url = URL(string: "https://labs.goo.ne.jp/api/hiragana")
+        let app_id = "e977d742bc8539d2a51f460a59a8cf28734805a548c6dc4cacf4792f63a5881a"
+        
         // URLRequstの設定
-        var request = URLRequest(url: URL(string: "https://labs.goo.ne.jp/api/hiragana")!)
+        var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        
         //POSTするデータをURLRequestに持たせる
-        let postData = PostData(app_id: "e977d742bc8539d2a51f460a59a8cf28734805a548c6dc4cacf4792f63a5881a", request_id: "record003", sentence: convertTextForApi, output_type: "hiragana")
+        let postData = PostData(app_id: app_id, request_id: "record003", sentence: convertTextForApi, output_type: "hiragana")
         guard let uploadData = try? JSONEncoder().encode(postData) else {
             print("json生成に失敗しました")
             return
         }
         request.httpBody = uploadData
+        
+        
         //APIへPOSTしてresponseを受け取る
         let task = URLSession.shared.uploadTask(with: request, from: uploadData) {
             data, response, error in
@@ -69,7 +75,6 @@ class ViewController: UIViewController {
         task.resume()
     }
 }
-
 struct Rubi:Codable {
     var request_id: String
     var output_type: String
@@ -81,4 +86,3 @@ struct PostData: Codable {
     var sentence: String
     var output_type: String
 }
-

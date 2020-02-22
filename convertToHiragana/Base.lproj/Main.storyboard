@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fukidashi03" translatesAutoresizingMaskIntoConstraints="NO" id="vbC-CA-YQ3">
-                                <rect key="frame" x="20" y="426" width="428" height="222"/>
+                                <rect key="frame" x="43" y="324" width="428" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="ここに漢字を入力してね" textAlignment="center" minimumFontSize="24" background="fukidashi10" translatesAutoresizingMaskIntoConstraints="NO" id="VIn-AR-Hl1">
-                                <rect key="frame" x="20" y="227" width="284" height="95"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="ここに入力してください" textAlignment="center" minimumFontSize="24" background="fukidashi10" translatesAutoresizingMaskIntoConstraints="NO" id="VIn-AR-Hl1">
+                                <rect key="frame" x="20" y="152" width="284" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHA-P2-XzK">
-                                <rect key="frame" x="269" y="186" width="125" height="156"/>
+                                <rect key="frame" x="269" y="113" width="125" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="youchien_bag_girl"/>
                                 <connections>
@@ -39,18 +39,18 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="job_hoikushi_man" translatesAutoresizingMaskIntoConstraints="NO" id="u2j-0J-PXg">
-                                <rect key="frame" x="-17" y="564" width="187" height="178"/>
+                                <rect key="frame" x="20" y="504" width="187" height="178"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="なんでもひらがなにするよ〜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ru-rS-XIr">
-                                <rect key="frame" x="121" y="527" width="226" height="21"/>
+                                <rect key="frame" x="142" y="413" width="226" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ひらがなに変換するアプリ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuy-ls-dM1">
-                                <rect key="frame" x="103" y="88" width="208" height="21"/>
+                                <rect key="frame" x="103" y="84" width="208" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -60,6 +60,7 @@
                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="svd-G9-zSZ"/>
                     <connections>
                         <outlet property="convertText" destination="VIn-AR-Hl1" id="jU7-9v-k7D"/>
                         <outlet property="convertedText" destination="7ru-rS-XIr" id="Km1-Er-7sQ"/>
