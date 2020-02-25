@@ -30,10 +30,10 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="3N0-QP-aAZ"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHA-P2-XzK">
-                                <rect key="frame" x="269" y="113" width="125" height="156"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHA-P2-XzK">
+                                <rect key="frame" x="283" y="124" width="98" height="134"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="youchien_bag_girl"/>
+                                <state key="normal" image="youchien_bag_girl"/>
                                 <connections>
                                     <action selector="convertButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j1L-3D-kK2"/>
                                 </connections>
