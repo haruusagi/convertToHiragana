@@ -36,7 +36,6 @@ class API {
         }
         request.httpBody = uploadData
 
-
         //APIへPOSTしてresponseを受け取る
         let task = URLSession.shared.uploadTask(with: request, from: uploadData) {
             data, response, error in
@@ -80,6 +79,3 @@ struct PostData: Codable {
     var sentence: String
     var output_type: String
 }
-
-
-
