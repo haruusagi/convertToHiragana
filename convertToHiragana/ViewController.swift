@@ -18,6 +18,11 @@ class ViewController: UIViewController ,UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+<<<<<<< HEAD
+=======
+        convertText.text = ""
+        
+>>>>>>> ca0a2c762311dbb376cdc9b1033d9bb1078536c9
     }
         @IBAction func convertButton(_ sender: Any) {
         guard let convertTextForApi = convertText.text else {
