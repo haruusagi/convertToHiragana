@@ -1,6 +1,7 @@
 # convertToHiragana
 
 漢字が含まれた文章をひらがなに変換するアプリ
+
 https://github.com/haruusagi/convertToHiragana/issues/7#issue-570379303
 
 ## 使用方法
