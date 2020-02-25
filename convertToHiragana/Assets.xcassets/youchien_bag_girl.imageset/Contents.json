@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "youchien_bag_girl-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "youchien_bag_girl.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "youchien_bag_girl.png",
+      "filename" : "youchien_bag_girl-1.png",
       "scale" : "3x"
     }
   ],

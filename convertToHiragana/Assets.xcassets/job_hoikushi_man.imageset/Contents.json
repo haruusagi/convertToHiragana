@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "job_hoikushi_man-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "job_hoikushi_man-1.png",
       "scale" : "2x"
     },
     {
