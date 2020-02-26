@@ -1,5 +1,5 @@
 //
-//  ApiController.swift
+//  Api.swift
 //  convertToHiragana
 //
 //  Created by harusa on 2020/02/25.
