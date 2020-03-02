@@ -4,6 +4,10 @@
 
 https://github.com/haruusagi/convertToHiragana/issues/7#issue-570379303
 
+# Qiitaの記事
+https://qiita.com/haruusagi/items/9da1ca30f56487f21801
+
+
 ## 使用方法
 1.オレンジの吹き出しに漢字を含んだ文字を入力
 
